@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="westtle">
+    <meta name="description" content="Submission for Frontend Mentor challenge: Interactive Rating Component (HTML, CSS, JS)">
+    <meta name="keywords" content="html, css, javascript, frontend mentor, frontendmentor, frontend mentor challenge, frontend mentor challenges, interactive rating, interactive rating component, frontend mentor interactive rating component">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interactive Rating Component</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+</head>
+<body>
+    <main>
+        <div class="interactive-rating-component">
+            <form class="rating">
+                <div class="rating__star-icon rating--circle">
+                    <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z" fill="currentColor"/></svg>
+                </div>
+                <h1 class="rating__heading general__heading">How did we do?</h1>
+                <p class="rating__paragraph general__paragraph">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+                <ul class="rating__inputs">
+                    <li class="rating-inputs__item rating--circle">
+                        <input id="rate-1" type="radio" name="rating" value="1" required>
+                        <label for="rate-1">1</label>
+                    </li>
+                    <li class="rating-inputs__item rating--circle">
+                        <input id="rate-2" type="radio" name="rating" value="2">
+                        <label for="rate-2">2</label>
+                    </li>
+                    <li class="rating-inputs__item rating--circle">
+                        <input id="rate-3" type="radio" name="rating" value="3">
+                        <label for="rate-3">3</label>
+                    </li>
+                    <li class="rating-inputs__item rating--circle">
+                        <input id="rate-4" type="radio" name="rating" value="4">
+                        <label for="rate-4">4</label>
+                    </li>
+                    <li class="rating-inputs__item rating--circle">
+                        <input id="rate-5" type="radio" name="rating" value="5">
+                        <label for="rate-5">5</label>
+                    </li>
+                </ul>
+                <input class="rating__submit" type="submit" value="submit">
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="attribution">
+            <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank">Challenge</a> -
+            <a href="https://github.com/westtle" target="_blank">westtle</a> -
+            <a href="https://github.com/westtle/interactive-rating-component" target="_blank">Repository</a>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="./assets/scripts/script.js"></script>
+</body>
+</html>
